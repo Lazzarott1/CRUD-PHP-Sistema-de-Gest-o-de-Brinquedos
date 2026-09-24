@@ -4,7 +4,7 @@ mysqli_report(MYSQLI_REPORT_OFF);
 
 $host = "localhost";
 $usuario = "root";
-$senha = "";
+$senha = "root";
 $banco = "gestao_brinquedos_lazza";
 
 $conexao = new mysqli($host, $usuario, $senha, $banco);
